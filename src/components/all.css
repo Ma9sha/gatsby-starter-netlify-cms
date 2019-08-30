@@ -13,28 +13,31 @@
   }
 }
 
-.footer__container {
+/* .footer__container {
   display: flex;
+} */
+.footer__internalMenu {
+  list-style: none;
+  padding: .50rem;
 }
-
 .footer__socialLinks {
   display: flex;
   cursor: pointer;
+  padding: .50rem;
 }
 
 .footer__facebook {
   margin: 0;
   padding: .50rem;
+  width: 1rem;
+  height: 1rem;
 }
 
 .footer__twitter {
   margin: 0;
   padding: .50rem;
-}
-
-.footer__internalMenu {
-  list-style: none;
-  padding: .50rem;
+  width: 1rem;
+  height: 1rem;
 }
 
 .footer__copyRight {

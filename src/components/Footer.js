@@ -38,12 +38,8 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a className="navbar-item" href="/admin/" target="_blank"
+                        rel="noopener noreferrer">
                         Admin
                       </a>
                     </li>
@@ -57,19 +53,16 @@ const Footer = class extends React.Component {
               </div>
               </div>
               <div className="footer__socialLinks">
-                <a title="facebook" href="https://facebook.com/barnardos">
+                <a className="footer__facebook" href="https://facebook.com/barnardos" target="_blank">
                   <img
                     src={facebook}
                     alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com/barnardos">
+                <a className="footer__twitter" href="https://twitter.com/barnardos" target="_blank">
                   <img
-                    className="fas fa-lg"
                     src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
+                    alt="Twitter" 
                   />
                 </a>
               </div>
