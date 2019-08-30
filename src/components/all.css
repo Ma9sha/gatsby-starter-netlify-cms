@@ -55,22 +55,23 @@
 }
 
 .backgroundImage {
+  align-items: left;
   background-position: top left;
   background-attachment: fixed;
   display: flex;
+  flex-direction: column;
   height: 9rem;
   justify-content: space-around;
-  align-items: left;
-  flex-direction: column
+  line-height: 1rem;
 }
 .firstBanner, .secondBanner {
   background-color: #6aa300;
   box-shadow: none;
   color: white;
-  line-height: 1rem;
-  padding: .75rem;
   font-style: normal;
   font-size: 1.45rem;
+  line-height: 1rem;
+  padding: .75rem;
 }
 
 .mainbody__tile {
