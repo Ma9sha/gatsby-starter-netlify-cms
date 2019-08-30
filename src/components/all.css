@@ -1,0 +1,76 @@
+.Footer {
+  background-color: #f4f4f4;
+  box-shadow: 0 50vh 0 50vh #f4f4f4,
+    inset 0 0.25rem 0 0 #e8e8e8;
+  margin: 1rem 0 0;
+  padding: 1rem 0;
+  position: relative;
+}
+
+@media screen and (min-width: 700px) {
+  .Footer {
+    padding: 1rem 0;
+  }
+}
+
+.Footer__container {
+  display: flex;
+}
+
+.Footer__socialLinks {
+  display: flex;
+  cursor: pointer;
+}
+
+.Footer__facebook {
+  margin: 0;
+  padding: .50rem;
+}
+
+.Footer__twitter {
+  margin: 0;
+  padding: .50rem;
+}
+
+.Footer__linksList {
+  list-style: none;
+  padding: .50rem;
+}
+
+.Footer__copyRight {
+  display: flex;
+  padding: .50rem;
+}
+
+.navbar__start {
+  display: grid;
+  padding: .50rem;
+}
+
+.navbar__brandLogo {
+  padding: .50rem;
+}
+
+.backgroundImage {
+  background-position: top left;
+  background-attachment: fixed;
+  display: flex;
+  height: 9rem;
+  justify-content: space-around;
+  align-items: left;
+  flex-direction: column
+}
+.firstBanner, .secondBanner {
+  background-color: #6aa300;
+  box-shadow: none;
+  color: white;
+  line-height: 1rem;
+  padding: .75rem;
+  font-style: normal;
+  font-size: 1.45rem;
+}
+
+.mainbody__tile {
+  font-style: normal;
+  font-size: 1.45;
+}
