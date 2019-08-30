@@ -53,13 +53,15 @@ const Footer = class extends React.Component {
               </div>
               </div>
               <div className="footer__socialLinks">
-                <a className="footer__facebook" href="https://facebook.com/barnardos" target="_blank">
+                <a className="footer__facebook" href="https://facebook.com/barnardos" target="_blank" 
+                rel="noopener noreferrer">
                   <img
                     src={facebook}
                     alt="Facebook"
                   />
                 </a>
-                <a className="footer__twitter" href="https://twitter.com/barnardos" target="_blank">
+                <a className="footer__twitter" href="https://twitter.com/barnardos" target="_blank" 
+                rel="noopener noreferrer">
                   <img
                     src={twitter}
                     alt="Twitter" 

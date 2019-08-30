@@ -35,18 +35,18 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+        <div className="navbar__container">
+          <div className="navbar__brandLogo">
+            <Link to="/" className="navbar__item" title="Logo">
+              <img src={logo} alt="Barnardos" style={{ width: '88px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              className={`navbar__burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
             >
@@ -59,24 +59,24 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
+            <div className="navbar__start">
+              <Link className="navbar__item" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/products">
+              <Link className="navbar__item" to="/products">
                 Products
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className="navbar__item" to="/blog">
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact">
+              <Link className="navbar__item" to="/contact">
                 Contact
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
+              <Link className="navbar__item" to="/contact/examples">
                 Form Examples
               </Link>
             </div>
-            <div className="navbar-end has-text-centered">
+            {/* <div className="navbar__end">
               <a
                 className="navbar-item"
                 href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
@@ -87,7 +87,7 @@ const Navbar = class extends React.Component {
                   <img src={github} alt="Github" />
                 </span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>
