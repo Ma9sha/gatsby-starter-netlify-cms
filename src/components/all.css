@@ -1,4 +1,4 @@
-.Footer {
+.footer {
   background-color: #f4f4f4;
   box-shadow: 0 50vh 0 50vh #f4f4f4,
     inset 0 0.25rem 0 0 #e8e8e8;
@@ -8,36 +8,36 @@
 }
 
 @media screen and (min-width: 700px) {
-  .Footer {
+  .footer {
     padding: 1rem 0;
   }
 }
 
-.Footer__container {
+.footer__container {
   display: flex;
 }
 
-.Footer__socialLinks {
+.footer__socialLinks {
   display: flex;
   cursor: pointer;
 }
 
-.Footer__facebook {
+.footer__facebook {
   margin: 0;
   padding: .50rem;
 }
 
-.Footer__twitter {
+.footer__twitter {
   margin: 0;
   padding: .50rem;
 }
 
-.Footer__linksList {
+.footer__internalMenu {
   list-style: none;
   padding: .50rem;
 }
 
-.Footer__copyRight {
+.footer__copyRight {
   display: flex;
   padding: .50rem;
 }
