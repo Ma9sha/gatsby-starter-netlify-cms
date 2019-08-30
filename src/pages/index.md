@@ -1,21 +1,22 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Who we are
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: In the begining
+subheading: Barnardos children's charity
 mainpitch:
-  title: Why Kaldi
+  title: History
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    We've kept our promise to protect children and young people for over 150
+    years
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Thomas John Barnardo was born in Dublin, Ireland, in 1845. As a young man he
+  moved to London to train as a doctor. When he arrived, he was shocked to find
+  children living in terrible conditions, with no access to education. Poverty
+  and disease were so widespread that one in five children died before their
+  fifth birthday. When a cholera epidemic swept through the East End, leaving
+  3000 people dead and many orphaned children, the young Barnardo felt an urgent
+  need to help.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -68,3 +69,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
